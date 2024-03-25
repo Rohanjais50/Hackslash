@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackslash project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+            
+            
+        }
+        body{
+            animation: transition 0.8s ease-in-out;
+           
+            height: 100vh;
+            background-color: aliceblue;
+
+         
+            
+           
+        }
+        @keyframes transition {
+        from{
+                transform: translateY(50px);
+                opacity: 0;
+               
+            }
+           
+            to{
+                transform: translateY(0);
+                opacity: 1;
+                
+            }
+        }
+        .header{
+            max-width: 1096px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-start;
+            transition: all 0.1s;
+            font-weight: 600;
+        }
+        .header:hover{
+            transform: translate(-10px);
+            opacity: 0.7;
+            cursor: pointer;
+        }
+        .header h3{
+            margin-top: 60px;
+            margin-left: 20px;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .contentsection{
+            max-width: 1096px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        h1{
+            transition: all 0.07s;
+        }
+        h1:hover{
+            transform: scale(1.03);
+            text-decoration: underline;
+            text-decoration-thickness:1px;
+            text-underline-offset: 10px ;
+            cursor: pointer;
+        }
+        .content1{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            padding: 1rem;
+           
+        }
+        .content{
+            display: flex;
+            gap: 0.4rem;
+        }
+       
+        .content1 h1{
+            margin-top: -8px;
+            font-size: 43px;
+            font-weight: 450;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            
+        
+        }
+        .content1 a{
+            text-decoration: none;
+            
+        }
+        .content1 p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            margin-bottom: 25.4px;
+            color: rgb(63, 62, 62);
+        }
+        .content1 h4{
+            margin-top: 35px;
+            font-size: 22px;
+            transition: all 0.3s;
+            font-family: sans-serif;
+           
+        }
+        .content1 h4:hover{
+            opacity: 0.6;
+            cursor: pointer;
+        }
+        .images{
+            display: flex;
+            flex-direction: column;
+        }
+        .img{
+            transition: all 0.77s;
+            border-radius: 5px;
+            
+            
+        }
+        .img:hover{
+            -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border: 1px solid black;
+        }
+        
+        .buttonclass{
+            max-width: 1096px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 55px;
+        }
+         .button{
+         
+            border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    /* height: 1.8rem;
+    width: 6.5rem; */
+    padding: 0.75rem 1.5rem;
+    margin-left: 250px;
+    margin-top: 70px;
+        }
+        .button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
+        .dark-mode{
+            background-color: rgb(36, 35, 35);
+            color: white;
+        }
+    </style>
+
+</head>
+
+   <body>
+    <div class="header-section">
+        <div class="header">
+            <h3>
+                Lets Collaborate
+            </h3>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="contentsection">
+            <div class="content">
+            <div class="content1">
+            <a href="/CSS/ai+rpa.html">
+            <h1>
+            AI+RPA is what we do
+        
+            </h1>
+           </a>
+            <p>
+                Future-Proof your business. Drive efficiency, profitability and deliver on customer experience
+            </p>
+           
+            <h4>
+                AI+RPA Automation &#x2192;
+            </h4>
+           <a href="/CSS/make bolder choices.html">
+            <h1>
+                Make Bolder Choices
+                </h1>
+                </a>
+                <p>
+                    Digital focused strategies to realize market-changing ideas
+                </p>
+                <h4>
+                    Build Better Apps &#x2192;
+                </h4>
+                <a href="/CSS/innovate with speed.html">
+                <h1>
+                    Innovate With Speed
+                    </h1>
+                </a>
+                    <p>
+                        Create higher quality software, deliver on customer expectations and business goals
+                    </p>
+                    <h4>
+                        DevOps &#x2192;
+                    </h4>
+                </h1>
+                <a href="/CSS/embrace cloud.html">
+                <h1>
+                    Embrace Cloud
+                    </h1>
+                    </a>
+                    <p>
+                        With Cloud-First accelerate innovation and optimize performance
+                    </p>
+                    <h4>
+                        Cloud Services &#x2192;
+                    </h4>
+                  
+        </div>
+        <div class="images">
+        <img src="/Hackslash-work/s1-image.d6d4b7703bc14f99bb7e.jpg" class="img" width="528px" height="320px" alt="">
+         <img src="/Hackslash-work/s2-image.e0b53b689fd9881066ec.png" class="img" alt="" width="528px" height="320px">
+         <img src="/Hackslash-work/s3-image.8bc14b86ce6eff22c3cb (1).jpg" class="img" alt="" width="528px" height="320px">
+         <img src="/Hackslash-work/s4-image.e02e593de8014f43f419.jpg" class="img" alt="" width="528px" height="320px">
+        </div>
+        
+      
+    </div>
+    </div>
+    </div>
+
+    
+  
+
+
+
+
+
+
+<button class="button" onClick="myfunction()">Toogle Night Mode</button>
+
+
+<script>
+
+    function myfunction(){
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+</script> 
+
+
+</body>
+</html>
